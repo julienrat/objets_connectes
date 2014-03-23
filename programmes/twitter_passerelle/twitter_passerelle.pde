@@ -27,10 +27,10 @@ void setup() {
       
   // CREDENTIALS
   ConfigurationBuilder cb = new ConfigurationBuilder();
-  cb.setOAuthConsumerKey ("40vL4kzLAOcXWlAxrtI8g");
-  cb.setOAuthConsumerSecret("jBKBvfqhZ97PC9Of1Vw70IXSkIFvf4socw9ymGSizA");
-  cb.setOAuthAccessToken("142970373-aM3bsgAwimVT69rIl6abH4C4OATD9RFxyfvLF9s5");
-  cb.setOAuthAccessTokenSecret("2BGQ3DAIRVz9WUgNvE6DDOrxga4iliHBBqHtTEHX8");
+  cb.setOAuthConsumerKey ("XXXXXXXXXXXXXXXXx");
+  cb.setOAuthConsumerSecret("XXXXXXXXXXXXXXXXXXXXX");
+  cb.setOAuthAccessToken("XXXXXXXXXXXXXXXXXX");
+  cb.setOAuthAccessTokenSecret("XXXXXXXXXXXXXXXXXXXXXXXXX");
   TwitterFactory tf = new TwitterFactory(cb.build());
 
   twitter = tf.getInstance(); // demarrage de l'instance tweeter
@@ -55,7 +55,7 @@ void tweet(String message) // fonction qui change le statut tweeter
 
 void keyPressed()
 {
-  tweet("Merci de mettre a jour votre abonnement sur @julienrat, sinon, vous allez etre inondés de commandes arduino ");
+  tweet("ça tweet ! ");
 }
 
 
